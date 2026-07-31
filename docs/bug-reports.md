@@ -56,3 +56,49 @@ Alta
 
 Prioridade:
 Alta
+
+
+BUG-003 
+
+Título: sistema perimte acesso com email invalido 
+
+Ambiente: google crhome windows 10 
+
+Pré-condição: usuario possui cadstro e esta na pagina de login 
+
+Passos: 
+1. usuario esta na pagina de login 
+2. informa email invalido 
+3. informa senha valida 
+4. clicar em "Login".
+
+Resultado esperado: O sistema deve impedir o login e exibir uma mensagem informando que o e-mail informado é inválido. 
+
+Resultado atual: o sistema permite o acessio do ussuario com email invalido 
+
+Severidade: Alta 
+
+Prioridade: Alta
+
+
+BUG-004
+
+Título: Sistema não bloqueia o usuário após cinco tentativas consecutivas de login com senha inválida.
+
+Ambiente: gloogle crhome windows 10
+
+Pré-condição: usuario tem cadastro e tenta fazer login. 
+
+Passos: 
+1. usuario entra na tela de login
+2. informa usuario
+3. informa senha invalida pela 5 vez
+4. clicar em "Login" 
+
+Resultado esperado: o sistema deve bloquear o acesso por 15 minutos e exibir uma mensagem de texto infiormando que o cliente esta bloqueado temporariamenmte por 15 minutos.
+
+Resultado atual: o sistema nao bloquea o cliente e opermite qaue ele e faça uma nova tentativa excedendo o limikte de 5. 
+
+Severidade: Alta 
+
+Prioridade: Alta
