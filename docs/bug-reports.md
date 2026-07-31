@@ -25,3 +25,34 @@ Alta
 
 Prioridade:
 Alta
+
+
+BUG-002
+
+Título:
+Sistema permite login com senha inválida
+
+Ambiente:
+Google Chrome
+Windows 10
+
+Pré-condição:
+Usuário possui uma conta cadastrada e está na página de login.
+
+Passos para reproduzir:
+1. Acessar a página de login.
+2. Informar um usuário válido.
+3. Informar uma senha inválida.
+4. Clicar no botão "Login".
+
+Resultado esperado:
+O sistema deve impedir o acesso, permanecer na página de login e exibir uma mensagem informando que as credenciais são inválidas.
+
+Resultado atual:
+O sistema permite o login mesmo utilizando uma senha inválida.
+
+Severidade:
+Alta
+
+Prioridade:
+Alta
